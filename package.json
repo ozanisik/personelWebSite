@@ -1,0 +1,42 @@
+{
+  "name": "personal-site",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "removeDist": "rm -rf dist/*",
+    "buildWatch": "npm run removeDist && webpack"
+  },
+  "dependencies": {
+    "css-loader": "^5.0.1",
+    "jquery": "^3.5.1",
+    "popper.js": "^1.16.1",
+    "vue": "^2.6.11",
+    "vue-router": "^3.2.0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-router": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "aos": "^2.3.4",
+    "bootstrap": "^4.6.0",
+    "bootstrap-vue": "^2.21.2",
+    "copy-webpack-plugin": "^7.0.0",
+    "file-loader": "^6.2.0",
+    "sass-loader": "^10.1.1",
+    "style-loader": "^2.0.0",
+    "url-loader": "^4.1.1",
+    "vue-loader": "^15.9.6",
+    "vue-template-compiler": "^2.6.11",
+    "vue-typed-js": "^0.1.2",
+    "webpack": "^4.41.0",
+    "webpack-cli": "^3.3.10",
+    "webpack-merge": "^4.2.2",
+    "webpackbar": "^3.2.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
